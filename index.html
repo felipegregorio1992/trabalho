@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+
+</head>
+
+
+<body>
+
+
+
+
+    <header>
+
+
+
+
+    <!-- INÍCIO SECTION BREADCRUMB -->
+
+
+
+
+                                    <div name="tipo_vinculo">
+                                        <h2>Escolha o tipo de filme que deseja assistir:</h2>
+                                        <div>
+                                            <label for="aventura">
+                                                <input type="radio" class="form-check-input" id="aventura"
+                                                    name="tipo_vinculo" value="aventura" required>
+                                                    aventura
+                                                <span></span>
+                                            </label>
+                                        </div>
+
+                                        <div>
+                                            <label for="acao">
+                                                <input type="radio" class="form-check-input" id="acao"
+                                                    name="tipo_vinculo" value="acao" required>
+                                                ação
+                                                <span></span>
+                                            </label>
+                                        </div>
+
+                                        <div>
+                                            <label for="comedia">
+                                                <input type="radio" class="form-check-input" id="comedia"
+                                                    name="tipo_vinculo" value="comedia" required>
+                                                    comedia
+                                                <span></span>
+                                            </label>
+                                        </div>
+
+                                        <div>
+                                            <label for="terror">
+                                                <input type="radio" class="form-check-input" id="terror"
+                                                    name="tipo_vinculo" value="terror" required>
+                                                    terror
+                                                <span></span>
+                                            </label>
+                                        </div>
+
+                                        <div>
+                                            <label for="todos">
+                                                <input type="radio" class="form-check-input" id="todos"
+                                                    name="tipo_vinculo" value="todos" required>
+                                                    todos
+                                                <span></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    
+
+
+                
+<br>
+<br>
+<br>
+
+
+
+
+
+
+    <div class="aventura" style="display:none;">
+
+        <div class="tex">aventura</div>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rtT2_OeofME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+    </div>
+
+    <div class="acao" style="display:none;">
+
+        <div class="tex">ação</div>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GghyPlcuBws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OmFkfLEJ0B8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/btiOK3CaRlM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+    </div>
+
+    <div class="comedia" style="display:none;">
+
+        <div class="tex">comedia</div>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FZocTCJYUyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HN0Lmg5ZMB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sZAbCYFYXWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </div>
+
+    <div class="terror" style="display:none;">
+
+        <div class="tex">terror</div>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZdabIT4_ZTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BrWws9W55O0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/04CV5n1K7-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <style>
+        .aventura {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-left: 100px;
+        }
+
+        .acao {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-left: 300px;
+        }
+
+        .comedia {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-left: 400px;
+        }
+
+        .terror {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-left: 600px;
+        }
+
+
+        .tex {
+            font-size: 50px;
+            font-weight: bold;
+            color: rgb(181, 32, 102);
+        }
+
+    </style>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="js/javascript_2.js"></script>
+
+
+    
+
+
+
+</body>
+
+</html>
